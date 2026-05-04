@@ -1,0 +1,70 @@
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+}
+
+.auth-container .auth-box {
+  width: 350px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-container .auth-box h2 {
+  margin-bottom: 20px;
+  color: #0d47a1;
+}
+
+.auth-container .auth-box .auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container .auth-box .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.auth-container .auth-box .input-group label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.auth-container .auth-box .input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-container .auth-box .input-group input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+.auth-container .auth-box button {
+  padding: 10px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-container .auth-box button:hover {
+  background: #0d47a1;
+}
+
+.auth-container .auth-box .switch {
+  margin-top: 15px;
+  color: #1976d2;
+  cursor: pointer;
+  font-size: 14px;
+}
