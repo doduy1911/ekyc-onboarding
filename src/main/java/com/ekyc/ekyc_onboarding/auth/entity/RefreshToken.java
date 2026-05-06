@@ -7,6 +7,10 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
+@Table(name = "refresh_tokens" , indexes = {
+        @Index(name = "idx_refresh_token_token",columnList = "token" , unique = true),
+        @Index(name = "idx_refersh_tokens_user" , columnList = "user_id")
+} )
 @Getter
 @Setter
 @NoArgsConstructor
