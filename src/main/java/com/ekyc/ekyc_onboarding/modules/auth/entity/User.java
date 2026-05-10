@@ -1,8 +1,8 @@
-package com.ekyc.ekyc_onboarding.auth.entity;
+package com.ekyc.ekyc_onboarding.modules.auth.entity;
 
 
-import com.ekyc.ekyc_onboarding.auth.OtpService.enums.Role;
-import com.ekyc.ekyc_onboarding.auth.OtpService.enums.UserStatus;
+import com.ekyc.ekyc_onboarding.common.enums.Role;
+import com.ekyc.ekyc_onboarding.common.enums.UserStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

@@ -1,4 +1,4 @@
-package com.ekyc.ekyc_onboarding.auth.entity;
+package com.ekyc.ekyc_onboarding.modules.auth.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-package com.ekyc.ekyc_onboarding.auth.OtpService.enums;
+package com.ekyc.ekyc_onboarding.common.enums;
 
 public enum OtpType {
     REGISTER,
